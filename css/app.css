@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Lusitana);
+body {background:#eaeaea url('/img/light_toast.png') repeat;padding-top:30px;}
+body {font-family:'Lusitana', sans-serif;color:#444;}
+p {font-size:20px;line-height:175%;}
+
+h1 {margin-bottom:20px;padding-bottom:10px;border-bottom:solid #ccc 1px;}
+
+.navbar-inner {min-height:20px;}
+.navbar .brand {font-size:14px;line-height:180%;text-transform:uppercase;padding-top:0px;padding-bottom:0px;}
+.navbar .brand b {color:white;}
+
+.navbar-inverse .navbar-inner {
+	background-color: #2C4467;
+	background-image: -moz-linear-gradient(top,#2C4467,#263b59);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#2C4467),to(#263b59));
+	background-image: -webkit-linear-gradient(top,#2C4467,#263b59);
+	background-image: -o-linear-gradient(top,#2C4467,#263b59);
+	background-image: linear-gradient(to bottom,#2C4467,#263b59);
+	background-repeat: repeat-x;
+	border-color: #fff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2C4467',endColorstr='#ff263b59',GradientType=0);
+	opacity: 0.9;
+}
+
+.navbar .nav > li > a {
+	padding: 0px 15px 0px;
+	line-height:180%;font-size:14px;
+}
+
+
+img {border-radius: 5px;}
+img.avatar {margin-bottom:20px;}
+
+.well {background-color:#fafafa;}
+.nav-stacked li {background-color:#fafafa;}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: #D7E6F6;
+}
+
+ul.posts {font-size:20px;line-height:175%;}
+.posts li {margin:35px 0px 0px 0px;border-bottom:solid 1px #eee;padding-bottom:15px;}
+.posts li .date {color:#999;}
+.posts li .excerpt {color:#aaa;font-size:14px;font-style:italic;margin-top:10px;text-align:justify;}

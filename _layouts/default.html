@@ -4,10 +4,62 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/app.css?v=1">
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.min.css">
     </head>
     <body>
+    	<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand pull-left" href="/">
+						Jorin Slaybaugh &nbsp; // &nbsp; <b>Cache and Query</b>
+					</a>
+					<ul class="nav pull-right">
+						<li><a href="https://twitter.com/jslaybaugh"><i class="icon-twitter"></i></a></li>
+						<li><a href="https://github.com/jslaybaugh"><i class="icon-github"></i></a></li>
+						<li><a href="mailto:jslaybaugh-at-gmail-dot-com"><i class="icon-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
-        {{ content }}
+    	<div class="container">
+    		<div class="row-fluid">
+    			<div class="span10 well">
+        			{{ content }}
+    			</div>
+    			<div class="span2">
+    				<img class="span12 avatar" src="http://www.gravatar.com/avatar/da743704e03861e08cdfa0334627ad3a?d=mm&"/>
+    				<ul class="nav nav-tabs nav-stacked">
+    					<li><a href="#"><i class="icon-user"></i> About Me</a></li>
+    					<li><a href="#"><i class="icon-twitter-sign"></i> Twitter</a></li>
+    					<li><a href="#"><i class="icon-github-sign"></i> Github</a></li>
+    				</ul>
+    				<ul class="nav nav-tabs nav-stacked">
+    					{% for post in site.posts %}
+						    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+    				</ul>
+    			</div>
+    		</div>
 
+    	</div>
+
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-38633280-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
     </body>
 </html>
