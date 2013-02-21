@@ -1,7 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Lusitana);
+@import url(http://fonts.googleapis.com/css?family=Cardo:400,700);
 body {background:#eaeaea url('/img/light_toast.png') repeat;padding-top:30px;}
-body {font-family:'Lusitana', sans-serif;color:#444;}
-p {font-size:20px;line-height:175%;}
+body {font-family:'Cardo', serif;color:#666;}
+p, ul, li {font-size:20px;line-height:175%;}
+p {margin-bottom:30px;}
 
 h1 {margin-bottom:20px;padding-bottom:10px;border-bottom:solid #ccc 1px;}
 
@@ -27,12 +28,14 @@ h1 {margin-bottom:20px;padding-bottom:10px;border-bottom:solid #ccc 1px;}
 	line-height:180%;font-size:14px;
 }
 
+b,strong {font-weight:700;}
+
 
 img {border-radius: 5px;}
 img.avatar {margin-bottom:20px;}
 
 .well {background-color:#fafafa;}
-.nav-stacked li {background-color:#fafafa;}
+.nav-stacked li {background-color:#fafafa;font-size:17px;}
 
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: #D7E6F6;
@@ -41,4 +44,9 @@ img.avatar {margin-bottom:20px;}
 ul.posts {font-size:20px;line-height:175%;}
 .posts li {margin:35px 0px 0px 0px;border-bottom:solid 1px #eee;padding-bottom:15px;}
 .posts li .date {color:#999;}
-.posts li .excerpt {color:#aaa;font-size:14px;font-style:italic;margin-top:10px;text-align:justify;}
+.posts li .excerpt {color:#aaa;font-size:14px;font-style:italic;margin-top:10px;text-align:justify;line-height:120%;}
+
+.social-top, .social-bottom {margin-bottom:10px;padding-bottom:10px;border-bottom:solid #ccc 1px;}
+.social-bottom {padding-top:20px;margin-top:30px;border-top:solid #ccc 1px;}
+
+.post-content {text-align:justify;}

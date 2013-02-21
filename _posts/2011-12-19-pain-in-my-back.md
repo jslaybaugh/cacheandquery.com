@@ -24,20 +24,18 @@ And yes, I know I should sit up straight the whole time, but I also know no one 
 
 Anyway, today I hit a breaking point.  I was at the gym, and my back was so weak that every single lift was either painful or impossible. It has been bad for the last 6 weeks or so (since I've been so busy at work), but today was a whole new level of bad.  I left the gym and went straight to Home Depot.
 
-[![][3]][3]
-On Blocks
+![On blocks](/img/posts/desk_blocks.jpg)
 
-The end result is my very own "Standing Desk." It's a little more .... well, "urban" than I'd probably prefer, but this is just a test and quality standing desks are [expensive][3]. This raised my desk 16" and cost less than $20.00.  It's a little higher than I thought I needed (I was shooting for 14") but after getting it set up it actually feels really good.
+The end result is my very own "Standing Desk." It's a little more .... well, "urban" than I'd probably prefer, but this is just a test and quality standing desks are [expensive][2]. This raised my desk 16" and cost less than $20.00.  It's a little higher than I thought I needed (I was shooting for 14") but after getting it set up it actually feels really good.
 
-So, I'm going to try this for at least two weeks.  I'm sure my feet will be tired at first, but I think its worth it.  And if I really like it, maybe I'll look into a nice standing desk... or maybe I'll just paint/cover the cinder blocks. ![:-)][4]
+So, I'm going to try this for at least two weeks.  I'm sure my feet will be tired at first, but I think its worth it.  And if I really like it, maybe I'll look into a nice standing desk... or maybe I'll just paint/cover the cinder blocks. :-)
 
 Tomorrow I'll actually be out of the office, so the first full day's experience will have to wait till Wednesday, but we'll see how it goes, and I'll post back here in two weeks.
 
 **EDIT:**
 
-My lovely wife reminded me of this today.  No post about a standing desk would truly be complete without it: 
+My lovely wife reminded me of this today.  No post about a standing desk would truly be complete without it: [http://www.nbc.com/the-office/video/this-will-not-stand/1371438][3]
 
  [1]: http://www.youtube.com/watch?v=sPm5i-2Cbyc&context=C38c7156ADOEgsToPDskL9aK46J0prCRPKxXBDwOHj
- []: http://cacheandquery.com/blog/wp-content/uploads/2011/12/photo-1.jpg
- [3]: http://www.google.com/search?aq=f&sourceid=chrome&ie=UTF-8&q=standing%2Bdesk&qscrl=1#q=standing%2Bdesk&hl=en&qscrl=1&prmd=imvnsl&source=lnms&tbm=shop&ei=LRDwTvvMH6q22gXYrLilDw&sa=X&oi=mode_link&ct=mode&cd=6&ved=0CGYQ_AUoBQ&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=dbad3aaef188f4db&biw=1422&bih=704
- [4]: http://cacheandquery.com/blog/wp-includes/images/smilies/icon_smile.gif  
+ [2]: http://www.google.com/search?aq=f&sourceid=chrome&ie=UTF-8&q=standing%2Bdesk&qscrl=1#q=standing%2Bdesk&hl=en&qscrl=1&prmd=imvnsl&source=lnms&tbm=shop&ei=LRDwTvvMH6q22gXYrLilDw&sa=X&oi=mode_link&ct=mode&cd=6&ved=0CGYQ_AUoBQ&bav=on.2,or.r_gc.r_pw.r_cp.,cf.osb&fp=dbad3aaef188f4db&biw=1422&bih=704
+ [3]: http://www.nbc.com/the-office/video/this-will-not-stand/1371438
