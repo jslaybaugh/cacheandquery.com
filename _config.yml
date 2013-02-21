@@ -1,3 +1,4 @@
+permalink: /blog/:year/:month/:title #used to match old blog format
 auto: true
 server: true
 markdown: rdiscount
