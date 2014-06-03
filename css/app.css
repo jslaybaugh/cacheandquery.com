@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Cardo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
 body {background:#eaeaea url('/img/light_toast.png') repeat;padding-top:30px;}
-body {font-family:'Cardo', serif;color:#666;}
+body {font-family:'Raleway', serif;color:#666;}
 p, ul, li {font-size:20px;line-height:175%;}
 p {margin-bottom:30px;}
 
