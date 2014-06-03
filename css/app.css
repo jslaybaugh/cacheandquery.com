@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Marcellus);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
 body {background:#eaeaea url('/img/light_toast.png') repeat;padding-top:30px;}
-body {font-family:'Marcellus', serif;color:#444;}
+body {font-family:'Merriweather', serif;color:#444;}
 p, ul, li {font-size:20px;line-height:125%;}
 p {margin-bottom:30px;}
 
