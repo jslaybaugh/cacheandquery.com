@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 body {background:#eaeaea url('/img/light_toast.png') repeat;padding-top:30px;}
-body {font-family:'Merriweather', serif;color:#444;}
-p, ul, li {font-size:20px;line-height:125%;}
+body {font-family:'Merriweather', serif;color:#555;}
+p, ul, li {font-size:20px;line-height:150%;}
 p {margin-bottom:30px;}
 
 h1 {margin-bottom:20px;padding-bottom:10px;border-bottom:solid #ccc 1px;}
@@ -35,13 +35,13 @@ img {border-radius: 5px;}
 img.avatar {margin-bottom:20px;}
 
 .well {background-color:#fafafa;}
-.nav-stacked li {background-color:#fafafa;font-size:17px;}
+.nav-stacked li {background-color:#fafafa;font-size:14px;}
 
 .nav > li > a:hover, .nav > li > a:focus {
 	background-color: #D7E6F6;
 }
 
-ul.posts {font-size:20px;line-height:125%;}
+ul.posts {font-size:20px;line-height:150%;}
 .posts li {margin:35px 0px 0px 0px;border-bottom:solid 1px #eee;padding-bottom:15px;}
 .posts li .date {color:#999;}
 .posts li .excerpt {color:#aaa;font-size:14px;font-style:italic;margin-top:10px;text-align:justify;line-height:120%;}
