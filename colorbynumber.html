@@ -1,0 +1,129 @@
+<html>
+<head>
+<style type="text/css">
+#picture, #colors {
+  table-layout:fixed;
+}
+
+#picture td, #colors td {
+  text-align:center;
+  cursor:pointer;
+  width:38px;
+  border:solid 1px gray;
+}
+
+@media print{
+   .noprint{
+       display:none;
+   }
+}
+</style>
+</head>
+<body>
+	<div class="noprint">
+	<table id="colors" border=0 cellspacing=0>
+		<tr>
+		  <td style="background-color:black;">1</td>
+		  <td style="background-color:darkred;">2</td>
+		  <td style="background-color:red;">3</td>
+		  <td style="background-color:sandybrown;">4</td>
+		  <td style="background-color:orange;">5</td>
+		  <td style="background-color:gold;">6</td>
+		  <td style="background-color:yellow;">7</td>
+		  <td style="background-color:lawngreen;">8</td>
+		  <td style="background-color:green;">9</td>
+		  <td style="background-color:darkgreen;">10</td>
+		  <td style="background-color:blue;">11</td>
+		  <td style="background-color:dodgerblue;">12</td>
+		  <td style="background-color:lightskyblue;">13</td>
+		  <td style="background-color:indigo;">14</td>
+		  <td style="background-color:purple;">15</td>
+		  <td style="background-color:violet;">16</td>
+		  <td style="background-color:pink;">17</td>
+      <td style="background-color:darkgray;">18</td>
+      <td style="background-color:gray;">19</td>
+		  <td style="background-color:white;"></td>
+		</tr>
+	</table>
+	<hr>
+</div>
+	<table id="picture" border=0 cellspacing=0></table>
+	<div class="noprint">
+	<hr>
+	<!--<select id="format">
+	  <option value="number">Numbers Only</option>
+	  <option value="add">Addition</option>
+	  <option value="subtract">Subtraction</option>
+	</select>
+	Minimum Number
+	<input type="number" id="min" />
+	Maximum Number
+	<input type="number" id="max" />-->
+	<button id="fill">Fill</button>
+	<button id="clear">Clear All</button>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script type="text/javascript">
+	// find elements
+var banner = $("#banner-message")
+var button = $("button")
+var color, number;
+
+var cols = 20;
+var rows = 20;
+
+var draw = function()
+{
+  var output = "";
+  for (var i = 0; i < rows; i++)
+  {
+    output += "<tr>";
+    for	(var j = 0; j < cols; j++)
+    {
+      output += "<td></td>";
+    }
+    output += "</tr>";
+  }
+
+  $("#picture").html(output);  
+
+  $("td").each(function(i,n)
+  {
+    $(n).height($(n).width());
+  })
+};
+
+$(document)
+	.on("click", "#colors td", function()
+  {
+    color = $(this).css("backgroundColor");
+    number = $(this).text();
+  })
+  .on("click", "#picture td", function()
+  {
+    $(this).css("backgroundColor", color);
+    $(this).data("number", number);
+  })
+  .on("click", "#fill", function()
+  {
+    $("#picture td").each(function(i, n)
+    {
+      $(n).css("backgroundColor", "");
+      $(n).text($(n).data("number"));
+    })
+  })
+  .on("click", "#clear", function()
+  {
+    if (confirm("Are you sure you want to clear??"))
+    {
+      draw();
+    }
+  });
+
+draw();
+
+
+
+</script>
+</body>
+</html>
